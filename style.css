@@ -1,0 +1,162 @@
+body{
+    /*background-color:	#80532d;*/
+    background-image: url('coco.png.jpg');
+    background-size: cover;
+}
+/*.title{
+    text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 700;
+font-size: xx-large;
+}*/
+.display-1{
+   text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif; 
+color: #80532d; 
+}
+.display-2{
+    color:#a0734d;
+}
+/*.card-container img{
+    border-radius: 20px;
+}*/
+ .carousel-item img {
+      height: 400px;
+      object-fit: cover;
+    }
+  /*  .card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  text-align: center;
+}
+.card {
+  width: 45%;
+  min-width: 300px;
+  background-color: #f4d9b9 !important;
+  padding: 20px;
+  border-radius: 10px;
+}*/
+.card {
+  background-color: #eae6be	 !important;
+  border-radius: 10px;
+  text-align: center;
+  padding: 25px;
+    width: 350px;
+    height: 400px;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card img {
+  margin-bottom: 10px;
+  width: 200px; 
+  height: 200px;
+  object-fit: cover;
+  margin:0 auto;
+   box-shadow: 0 2px 4px rgba(10, 0, 0, 0.1);
+}
+.contenitore {
+
+    display: flex;
+    justify-content: center;
+    /*space-evenly, space-around, space-between*/
+    align-items: center; /*serve a regolare l'allineamento di una riga*/
+    align-content: center; 
+    flex-wrap: wrap;
+    gap: 30px;
+    text-align: center;
+    background-image: url('cio.png.jpg');
+    background-size:cover;
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+
+/*.nome {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+.role {
+  color: #7c4d21;
+  font-weight: bold;
+}*/
+
+footer{
+    text-align: center;
+    color: #654444;
+}
+.settimana{
+  text-align: center;
+  color: beige;
+}
+.btn{
+    border-radius: 15px;
+    color:	white !important;
+    background-color:#a56400 !important;
+}
+.btn:hover{
+   background-color: #eae6be;
+   transform: scale(1.15);
+}
+.social{
+  text-align: center;
+  margin:20px;
+
+ 
+}
+
+#Acquisto .card{ 
+  background-color: 	#f4f2e2 !important;
+} 
+.card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.buy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+  padding: 10px;
+}
+.sconto{
+  color: red;
+}
+/*.up{
+  color:#a56400;
+  background-color: #eae6be;
+  border-radius: 5px;
+}*/
+.btn-up {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #a56400;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.btn-up:hover {
+  background-color: #eae6be;
+  color: #80532d;
+  transform: scale(1.15);
+}
+.container-fluid{
+  background-color: #eae6be;
+  color:#80532d ;
+}
+.centrale{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
